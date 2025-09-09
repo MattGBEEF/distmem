@@ -40,7 +40,8 @@ P {
   color:white;
 }
 body {
-  
+  background-image: url('img/crt.png');
+  background-size: cover;
 }
 @keyframes ohshit {
   0%   {background-color: blue;}
