@@ -1,0 +1,189 @@
+@font-face {
+  font-family: salt;
+  src: url(assets/xband.ttf);
+  color:white;
+}
+
+H1 {
+  font-family: salt;
+  font-size: 30px;
+  color:white;
+}
+H2 {
+  font-family: salt;
+  font-size: 60px;
+  color:white;
+}
+H3 {
+  font-family: salt;
+  font-size: 50px;
+  color:white;
+}
+H4 {
+  font-family: salt;
+  font-size: 40px;
+  color:white;
+}
+H5 {
+  font-family: salt;
+  font-size: 30px;
+  color:white;
+}
+H6 {
+  font-family: salt;
+  font-size: 20px;
+  color:white;
+}
+P {
+  font-family: salt;
+  font-size: 20px;
+  color:white;
+}
+body {
+  background-image: url('img/crt.png');
+  background-size: cover;
+}
+@keyframes ohshit {
+  0%   {background-color: blue;}
+  20%  {background-color: green;}
+  40%  {background-color: yellow;}
+  60% {background-color: terra cotta;}
+  80% {background-color: cyan;}
+  100% {background-color: blue;}
+  animation-duration: infinite;
+}
+
+@keyframes glitch1 {
+  0% {
+    transform: none;
+  }
+  7% {
+    transform: skew(-1deg, -2deg);
+  }
+  10% {
+    transform: none;
+  }
+  27% {
+    transform: none;
+  }
+  30% {
+    transform: skew(1deg, -4deg);
+
+  }
+  35% {
+    transform: none;
+  }
+  52% {
+    transform: none;
+  }
+  55% {
+    transform: skew(-1deg, 8deg);
+  }
+  50% {
+    transform: none;
+  }
+  72% {
+    transform: none;
+  }
+  75% {
+    transform: skew(1deg, 4deg);
+  }
+  80% {
+    transform: none;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes glitch2 {
+  0% {
+    transform: none;
+  }
+  12.5% {
+    transform: skew(7.5deg, 0deg);
+  }
+  25% {
+    transform: skew(0deg, 0deg);
+  }
+  37.5% {
+    transform: skew(-7.5deg, 0deg);
+  }
+  50% {
+    transform: none;
+  }
+  62.5% {
+    transform: skew(7.5deg, 0deg);
+  }
+  75% {
+    transform: skew(0deg, 0deg);
+  }
+  87.5% {
+    transform: skew(-7.5deg, 0deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+@keyframes glitch3 {
+  0% {
+    transform: none;
+    opacity: 0.5;
+  }
+  7% {
+    transform: translate(2px, 3px);
+    opacity: 1;
+  }
+  10% {
+    transform: none;
+    opacity: 0.75;
+  }
+  27% {
+    transform: none;
+    opacity: 0.75;
+  }
+  30% {
+    transform: translate(5px, 2px);
+    opacity: 1;
+  }
+  35% {
+    transform: none;
+    opacity: 0.75;
+  }
+  52% {
+    transform: none;
+    opacity: 0.75;
+  }
+  55% {
+    transform: translate(5px, 1px);
+    opacity: 1;
+  }
+  50% {
+    transform: none;
+    opacity: 0.75;
+  }
+  72% {
+    transform: none;
+    opacity: 0.75;
+  }
+  75% {
+    transform: translate(2px, 6px);
+    opacity: 1;
+  }
+  80% {
+    transform: none;
+    opacity: 0.75;
+  }
+  100% {
+    transform: none;
+    opacity: 0.75;
+  }
+}
+
+.fuckassdiscord{
+  color:white;
+  overflow:hidden;
+  width:560px;
+}
